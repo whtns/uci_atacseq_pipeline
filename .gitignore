@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.nextflow*
+*.snakemake.log*
+.snakemake/
+logs/
+data/
+output/
+work/
+slurm*
+*python/cache/*
+*.h5ad

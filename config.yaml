@@ -1,0 +1,11 @@
+# ATAC-seq pipeline configuration
+fastq_dir: "/dfs9/ucightf-lab/projects/TinocoR/220907_TinoR_ATACseq/trimmed_fastq"
+trimmed_dir: "output/trimmed_fastq"
+bowtie2_dir: "output/bowtie2"
+macs2_dir: "output/macs2"
+fastqc_dir: "output/fastQC"
+adapters: "/dfs9/ucightf-lab/kstachel/TOOLS/Trimmomatic-0.39/adapters/NexteraPE-PE.fa"
+bowtie2_index: "/dfs9/ucightf-lab/kstachel/TOOLS/bowtie2/mm10/mm10"
+blacklist: "/dfs9/ucightf-lab/kstachel/TOOLS/references_fasta/mouse/encode_mm10_blacklist/mm10-blacklist.v2.bed"
+picard_jar: "/opt/apps/picard-tools/2.27.1/picard.jar"
+trimmomatic: "/dfs9/ucightf-lab/kstachel/TOOLS/Trimmomatic-0.39/trimmomatic-0.39.jar"
